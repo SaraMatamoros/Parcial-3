@@ -1,0 +1,52 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #333; /* Color de texto principal */
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  /* Navbar */
+  .navbar {
+    background-color: #28a745; /* Color de fondo del navbar (verde) */
+  }
+  
+  .navbar-brand, .navbar-nav .nav-link {
+    color: #fff; /* Color de texto del navbar (blanco) */
+  }
+  
+  .navbar-brand:hover, .navbar-nav .nav-link:hover {
+    color: rgba(255, 255, 255, 0.7); /* Color de texto del navbar al pasar el ratón */
+  }
+  
+  /* Jumbotron */
+  .jumbotron {
+    background-color: #0f501e; /* Color de fondo del jumbotron (verde) */
+    color: #fff; /* Color de texto del jumbotron (blanco) */
+  }
+  
+  /* Botones */
+  .btn-primary {
+    background-color: #0f501e; /* Color de fondo del botón (verde) */
+    border-color: #0f501e; /* Color del borde del botón (verde) */
+  }
+  
+  .btn-primary:hover {
+    background-color: #0f501e; /* Color de fondo del botón al pasar el ratón (verde más oscuro) */
+    border-color: #0f501e; /* Color del borde del botón al pasar el ratón (verde más oscuro) */
+  }
+  
+  /* Secciones */
+  section {
+    padding: 60px 0;
+  }
+  
+  /* Formulario */
+  .form-control {
+    border-color: #0f501e; /* Color del borde de los campos de formulario (verde) */
+  }
+  
+  .form-control:focus {
+    border-color: #0f501e; /* Color del borde de los campos de formulario al tener foco (verde más oscuro) */
+  }
